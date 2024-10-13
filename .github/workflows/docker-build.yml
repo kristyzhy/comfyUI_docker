@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # 
 
 env:
-  DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/comfyUI  # 使用 Secrets 定义 Docker 镜像名称
+  DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/comfyui  # 使用 Secrets 定义 Docker 镜像名称
 
 jobs:
   build:
